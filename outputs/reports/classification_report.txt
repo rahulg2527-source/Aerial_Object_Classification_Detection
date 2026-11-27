@@ -1,0 +1,10 @@
+Test Accuracy: 86.51%
+
+              precision    recall  f1-score   support
+
+        bird     0.8710    0.8926    0.8816       121
+       drone     0.8571    0.8298    0.8432        94
+
+    accuracy                         0.8651       215
+   macro avg     0.8641    0.8612    0.8624       215
+weighted avg     0.8649    0.8651    0.8648       215

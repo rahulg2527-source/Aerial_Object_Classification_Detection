@@ -1,0 +1,39 @@
+@"
+# Python environment
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Datasets and downloaded archives
+data/
+*.zip
+
+# Model weights
+*.pt
+*.pth
+*.onnx
+
+# Generated YOLO outputs
+outputs/yolo/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# IDE and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+"@ | Set-Content .gitignore
+# Generated test output and model checkpoints
+outputs/test_detection_result.jpg
+outputs/models/
+# Local dataset metadata
+outputs/reports/image_metadata.csv

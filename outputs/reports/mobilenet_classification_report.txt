@@ -1,0 +1,10 @@
+MobileNetV2 Test Accuracy: 98.14%
+
+              precision    recall  f1-score   support
+
+        bird     0.9680    1.0000    0.9837       121
+       drone     1.0000    0.9574    0.9783        94
+
+    accuracy                         0.9814       215
+   macro avg     0.9840    0.9787    0.9810       215
+weighted avg     0.9820    0.9814    0.9813       215
